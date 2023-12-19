@@ -2,7 +2,10 @@ import { v4 as uuidv4 } from "uuid";
 
 const TomorrowLogic = () =>{
 
-    const tomorrowTasks = ['Task1', 'Task12', 'Project3']
+    const tomorrowTasks = 
+    ['Growth mindset - how to make effor the rewrad'
+    , 'Stop procrastination by doing something that sucks - ice bath, metditing'
+    , 'Keep track of all your behaviours like sleep, diet, nights out, what is causing low dopomine']
     
     // can't make the key the task itself, if the tasks have the same name
     // then they will also have the same key and rturn an error
